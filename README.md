@@ -38,8 +38,8 @@ Save the trained model, visualize predictions, and integrate it into an applicat
 
 ## PROGRAM
 
-### Name: 
-### Register Number:
+### Name: P PARTHIBAN
+### Register Number: 212223230145
 ```python
 class CNNClassifier(nn.Module):
   def __init__(self):
