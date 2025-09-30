@@ -6,7 +6,7 @@ To Develop a convolutional deep neural network for image classification and to v
 
 ## Problem Statement and Dataset
 
-The goal of this project is to develop a Convolutional Neural Network (CNN) for image classification using the MNIST dataset. The MNIST dataset contains handwritten digit images (0-9), and the model aims to classify them correctly. The challenge is to achieve high accuracy while maintaining efficiency.
+The goal of this project is to develop a Convolutional Neural Network (CNN) for image classification using the Fashion MNIST dataset. The Fashion MNIST dataset contains images of clothing items such as T-shirts, trousers, dresses, and shoes, and the model aims to classify them into their respective categories correctly. The challenge is to achieve high accuracy while maintaining efficiency.
 
 ## Neural Network Model
 
@@ -14,26 +14,25 @@ The goal of this project is to develop a Convolutional Neural Network (CNN) for 
 
 
 ## DESIGN STEPS
+### STEP 1: Problem Statement
+Define the objective of classifying fashion items (such as shirts, shoes, bags, etc.) using a Convolutional Neural Network (CNN).
 
-STEP 1: Problem Statement
-Define the objective of classifying handwritten digits (0-9) using a Convolutional Neural Network (CNN).
+### STEP 2: Dataset Collection
+Use the Fashion MNIST dataset, which contains 60,000 training images and 10,000 test images of labeled clothing and accessory items.
 
-STEP 2:Dataset Collection
-Use the MNIST dataset, which contains 60,000 training images and 10,000 test images of handwritten digits.
-
-STEP 3: Data Preprocessing
+### STEP 3: Data Preprocessing
 Convert images to tensors, normalize pixel values, and create DataLoaders for batch processing.
 
-STEP 4:Model Architecture
-Design a CNN with convolutional layers, activation functions, pooling layers, and fully connected layers.
+### STEP 4: Model Architecture
+Design a CNN with convolutional layers, activation functions, pooling layers, and fully connected layers tailored for 10 fashion categories.
 
-STEP 5:Model Training
+### STEP 5: Model Training
 Train the model using a suitable loss function (CrossEntropyLoss) and optimizer (Adam) for multiple epochs.
 
-STEP 6:Model Evaluation
+### STEP 6: Model Evaluation
 Test the model on unseen data, compute accuracy, and analyze results using a confusion matrix and classification report.
 
-STEP 7: Model Deployment & Visualization
+### STEP 7: Model Deployment & Visualization
 Save the trained model, visualize predictions, and integrate it into an application if needed.
 
 ## PROGRAM
